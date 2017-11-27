@@ -1,9 +1,3 @@
-Gameplay elements
-
-basic inventory (too many permutations if complex)
-	keys
-	basic items that could potentially unlock extra options
-
 Basic stats can work
 	Charisma
 	Combat ability
@@ -32,3 +26,19 @@ gather information regarding how to deal with the creature
 gather equipment
 finale is to find the creature and use your knowledge to defeat it
 	
+
+The monster is a shapeshifte, they will have taken the form of one of the townspeople.
+
+Characters
+	Farmer
+	Hunter
+	stable hand
+	barkeep
+	traveller
+	bard
+	guard
+	mayor
+	fruit seller
+	blacksmith
+
+There will be a seperate screen available to see what clues you have gathered so far.
