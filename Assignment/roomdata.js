@@ -38,9 +38,55 @@ var roomArray = [
     <br\><br\>'I must say....i've been sleeping pretty badly the last few days I wonder if they're linked'",
 		choices:[
 			{
+				text:'Thank the farmer and continue on to town',
+				index:3
+			}
+		]
+	},
+	{
+		title:'Outskirts of the Fandalin',
+		text:"You leave the farmer behind you and ride right up to the edge of the town called Fandalin. Just outside of its boundaries you spot a stable. Beyond that you can see a few townspeople milling around and hear the distant clang of a blacksmith working metal.",
+		choices:[
+			{
 				text:'Go to the stable',
+				index:4
+			},
+			{
+				text:'Go back to the farmer',
+				index:1
+			}
+		]
+	},
+	{
+		title:'Stable Entrance',
+		text:"You arrive at the stable and swing down off your horse, smiling at the stable boy who regards you warily.",
+		choices:[
+			{
+				text:'Investigate the stable',
+				index:5
+			},
+			{
+				text:'Talk to the stable boy',
+				index:6
+			},
+			{
+				text:'Leave the stable alone and continue on to the town',
+				index:8
+			}
+		]
+	},
+	{
+		title:'Investigating the Stable',
+		text:"You look around the stable and see, to your surprise, that it is more or less pristine. The hay all looks to have been changed recently and the wooden supports and dividers look to have just recently been cleaned.",
+		choices:[
+			{
+				text:'Talk to the stable boy',
+				index:6
+			},
+			{
+				text:'Return to the entrance of the stable',
 				index:4
 			}
 		]
-	}
+	},
 ]
