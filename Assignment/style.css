@@ -1,7 +1,24 @@
+@font-face {
+  font-family: TitleFont;
+  src: url(TitleFont.TTF);
+}
+
+@font-face {
+  font-family: TextFont;
+  src: url(TextFont.ttf);
+}
+
+@font-face {
+  font-family: DreamOrphans;
+  src: url(dreamorphans.ttf);
+}
+
 #roomTitle {
   font-size: 30px;
   text-align: center;
   margin: 3% auto;
+  font-family: TitleFont;
+  font-weight: normal;
 }
 
 #roomText {
@@ -12,19 +29,34 @@
   text-align: center;
 }
 
+#lockedRoomChoices {
+  text-align: center;
+}
+
 #container {
   width: 750px;
   height: 100%;
   margin: 3% auto;
   font-size: 20px;
+  font-family: DreamOrphans;
 }
 
 #button {
   font-size: 15px;
   margin: 15px;
+  font-family: TextFont;
 }
 
 #lockedButton {
   font-size: 15px;
   margin: 15px;
+  color: blue;
+  font-style: italic;
+  font-family: TextFont;
+}
+
+#discoveryText {
+  text-align: center;
+  color: blue;
+  font-style: italic;
 }

@@ -2,44 +2,45 @@ var lockedChoicesArray = [
 	{
 		choices:[
 			{
-			},
+			}
 		]
 	},
   {
 		choices:[
 			{
-			},
+			}
 		]
 	},
   {
 		choices:[
 			{
-			},
+			}
 		]
 	},
   {
 		choices:[
 			{
-			},
+			}
 		]
 	},
   {
 		choices:[
 			{
-			},
+			}
 		]
 	},
   {
 		choices:[
 			{
-			},
+			}
 		]
 	},
   {
 		choices:[
 			{
-        text:'Tell the bot that you can tell your horse will be well looked after here',
+        text:'Tell the boy that you can tell your horse will be well looked after here',
         index:7
-			},
+			}
 		]
-	},
+	}
+]

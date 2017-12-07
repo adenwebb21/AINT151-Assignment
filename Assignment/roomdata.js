@@ -89,4 +89,15 @@ var roomArray = [
 			}
 		]
 	},
+	{
+		title:'Talking with the Stable Boy',
+		text:"You wave to the stable boy and try a hello. He just looks at you, his eyes shifting from side to side as though he is about to make a quick escape. You can tell he is uncomfortable.\
+			You try asking if he has seen anything unusual. To this he just shakes his head quickly and looks away.",
+		choices:[
+			{
+				text:'Leave the boy alone',
+				index:4
+			}
+		]
+	}
 ]
