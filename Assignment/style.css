@@ -9,8 +9,12 @@
 }
 
 @font-face {
-  font-family: DreamOrphans;
-  src: url(dreamorphans.ttf);
+  font-family: Planewalker;
+  src: url(Planewalker.otf);
+}
+
+body {
+  background-color: black;
 }
 
 #roomTitle {
@@ -18,6 +22,7 @@
   text-align: center;
   margin: 3% auto;
   font-family: TitleFont;
+  color: white;
   font-weight: normal;
 }
 
@@ -35,28 +40,49 @@
 
 #container {
   width: 750px;
-  height: 100%;
+  height: 400px;
   margin: 3% auto;
-  font-size: 20px;
-  font-family: DreamOrphans;
+  font-size: 22px;
+  font-family: Planewalker;
+  color: white;
+}
+
+#buttons {
 }
 
 #button {
-  font-size: 15px;
-  margin: 15px;
-  font-family: TextFont;
+  font-size: 18px;
+  margin: 10px;
+  font-family: TitleFont;
+  background-color: #9C344C;
+  border-color: #9C344C;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: #C36279;
 }
 
 #lockedButton {
-  font-size: 15px;
-  margin: 15px;
-  color: blue;
+  font-size: 18px;
+  margin: 10px;
+  font-family: TitleFont;
+  background-color: #236A62;
+  border-color: #236A62;
   font-style: italic;
-  font-family: TextFont;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#lockedButton:hover {
+  background-color: #42847D;
 }
 
 #discoveryText {
   text-align: center;
-  color: blue;
+  color: #236A62;
   font-style: italic;
 }

@@ -1,0 +1,22 @@
+Farm
+0, 1, 2
+
+Stable
+3, 4, 5, 6, 7
+
+Barracks
+8, 9, 10, 11
+
+Wooded Grove
+
+Inn
+16, 17, 18, 19, 20
+
+Town Centre
+12, 
+
+Forge
+23, 24, 25, 26
+
+Market Stalls
+13, 14, 15, 21, 22, 27, 28, 29
