@@ -8,15 +8,19 @@ Barracks
 8, 9, 10, 11
 
 Wooded Grove
+30, 31, 32, 33, 34, 35, 
 
 Inn
-16, 17, 18, 19, 20
+20, 21, 22, 23, 24
 
 Town Centre
 12, 
 
 Forge
-23, 24, 25, 26
+25, 26, 27, 28, 29
 
-Market Stalls
-13, 14, 15, 21, 22, 27, 28, 29
+Market Stall
+13, 14, 15, 16, 17, 18, 19
+
+Ending(town centre)
+36, 37, 38, 39, 40

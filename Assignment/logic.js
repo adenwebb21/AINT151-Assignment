@@ -2,7 +2,6 @@ var examinedStable = false;
 
 function OnLoad()
 {
-	console.log("Hi aden, will you find this?");
 	SelectRoom(0);
 }
 
@@ -22,6 +21,7 @@ function SelectRoom(roomIndex)
 
 	UpdateInfo(roomIndex);
 	CreateLockedButtons(roomIndex)
+	GetBackgroundImage(roomIndex);
 }
 
 function GetLockedButtons(roomIndex)
@@ -32,6 +32,21 @@ function GetLockedButtons(roomIndex)
 	{
 		var lockedRoomChoices = "<button id = 'lockedButton' onClick=SelectRoom(" + lockedChoicesArray[roomIndex].choices[i].index + ")>" + lockedChoicesArray[roomIndex].choices[i].text + "</button><br\>";
 		document.getElementById('lockedRoomChoices').innerHTML += lockedRoomChoices;
+	}
+}
+
+function GetBackgroundImage(roomIndex)
+{
+	switch (roomIndex)
+	{
+		case 0:
+		case 1:
+		case 2:
+			document.getElementById("body").background = "farmbg.png";
+			break;
+		default:
+			document.getElementById("body").background = "";
+			break;
 	}
 }
 
