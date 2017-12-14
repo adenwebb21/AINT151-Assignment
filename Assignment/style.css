@@ -13,11 +13,21 @@
   src: url(Planewalker.otf);
 }
 
-body {
-  background-color: black;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+ #body {
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-color: black;
+}
+#mainContent{
+  width:900px;
+  margin: 0 auto;
+}
+
+.titleAccent {
+  width:487px;
+  margin: 0 auto;
+  margin-top: -25px;
+  padding-bottom: 50px;
 }
 
 #roomTitle {
