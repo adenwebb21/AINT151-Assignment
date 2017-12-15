@@ -44,6 +44,13 @@ function GetBackgroundImage(roomIndex)
 		case 2:
 			document.getElementById("body").background = "farmbg.png";
 			break;
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+			document.getElementById("body").background = "stable.png";
+			break;
 		default:
 			document.getElementById("body").background = "";
 			break;
