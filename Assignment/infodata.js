@@ -112,5 +112,43 @@ var lockedChoicesArray = [
         index:18
 			}
 		]
+	},
+	{
+		choices:[
+			{
+				text:'Mention that the Joanne had a necklace that she loved, it had since gone missing',
+        index:19
+			}
+		]
+	},
+	{
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		choices:[
+			{
+				text:'Go through the inn and towards the wooded grove',
+        index:30
+			}
+		]
+	},
+	{
+		choices:[
+			{
+				text:'Tell her Gunther sent you',
+        index:22
+			}
+		]
+	},
+	{
+		choices:[
+			{
+				text:'Ask if anyone has died in the town recently',
+        index:24
+			}
+		]
 	}
 ]

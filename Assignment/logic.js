@@ -2,6 +2,9 @@ var examinedStable = false;
 var guntherSentYou = false;
 var hasNecklace = false;
 var hasTranslator = false;
+var spokenToblacksmith = false;
+var woodedgrove = false;
+var knowWhoGhostIs = false;
 
 function OnLoad()
 {
@@ -60,6 +63,25 @@ function GetBackgroundImage(roomIndex)
 		case 11:
 			document.getElementById("body").background = "barraks.png";
 			break;
+		case 12:
+			document.getElementById("body").background = "towncentre.png";
+			break;
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19:
+			document.getElementById("body").background = "marketstalls.png";
+			break;
+		case 20:
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+			document.getElementById("body").background = "inn.png";
+			break;
 		default:
 			document.getElementById("body").background = "";
 			break;
@@ -78,6 +100,31 @@ function CreateLockedButtons(roomIndex)
 			break;
 		case 14:
 			if (guntherSentYou == true)
+			{
+				GetLockedButtons(roomIndex);
+			}
+		case 14:
+			if (spokenToblacksmith == true)
+			{
+				GetLockedButtons(roomIndex);
+			}
+		case 20:
+			if (woodedgrove == true)
+			{
+				GetLockedButtons(roomIndex);
+			}
+		case 21:
+			if (guntherSentYou == true)
+			{
+				GetLockedButtons(roomIndex);
+			}
+		case 22:
+			if (hasTranslator == true)
+			{
+				GetLockedButtons(roomIndex);
+			}
+		case 23:
+			if (hasTranslator == true)
 			{
 				GetLockedButtons(roomIndex);
 			}
@@ -105,6 +152,10 @@ function UpdateInfo(roomIndex)
 		case 17:
 			hasTranslator = true;
 			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have been granted a translator that will allow you to converse with the spirit.";
+			break;
+		case 24:
+			knowWhoGhostIs = true;
+			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have learned that the ghost is Joanne Orner - daughter of the blacksmith.";
 			break;
 		default:
 			break;

@@ -181,7 +181,7 @@ var roomArray = [
 			},
 			{
 				text:'Make for the Maiden and Shield',
-				index:19
+				index:20
 			},
 			{
 				text:'Head towards the forge',
@@ -251,7 +251,7 @@ var roomArray = [
 	{
 		title:'Druid Stall',
 		text:"“You are here investigating the nightmares?”<br\><br\>\
-		Her voice is low and you have to strain to hear her over the hubbub of the town centre. You nod at her, you say you were wondering if she had seen anything like this before. She nods slowly.<br\><br\>\
+		Her voice is low and you have to strain to hear her over the hubbub of the town centre. You nod at her, you say you were wondering if she had seen anything like this before.<br\><br\>\
 		“I have seen something like this before...it was a spirit, trapped here when it shouldn’t have been. It created nightmares as messages, so that it could be freed.”<br\><br\>\
 		You say that the spirit didn’t seemed to speaking any language you had heard before, so how were you to follow its messages?<br\><br\>\
 		“Ah of course….spirits speak with a dead tongue, you will need...something like this.” Her hand moves over the talismans and branches arrayed on her stall. You notice that her eyes stay fixed on you. She hands you a small length of twisted root, simple runes scratched into one side.",
@@ -261,5 +261,105 @@ var roomArray = [
 				index:13
 			}
 		]
-	}
+	},
+	{
+		title:'Druid Stall',
+		text:"“Ah….so you know who the spirit is? That’s good...in order to free them and help them move on you will need to determine the cause of their entrapment….an item perhaps?””",
+		choices:[
+			{
+				text:'Tell the druid you will keep your eyes open and head back to the town centre',
+				index:12
+			}
+		]
+	},
+	{
+		title:'Druid Stall',
+		text:"“If you can find the item, you’ll need to bring it to the location of her burial. Once there the spirit should take the item from you and be free to move on...the burial location however is something I cannot tell you….maybe a member of her family will be able to help you?”",
+		choices:[
+			{
+				text:'Thank the druid for her help and go back to the town centre',
+				index:12
+			}
+		]
+	},
+	{
+		title:'The Maiden and Shield',
+		text:"As you enter the inn through a large wooden door, you are greeted with a warm and friendly interior. It is lit by a large fireplace in one wall and multiple wall sconces scattered around the others. A large pot is bubbling over the fire - from the smell of it it’s a peppery stew, ready to be served on demand. The inn is busy but not unpleasantly so and the patrons appear more friendly and conversational than those outside. You assume that this is due in part to the seemingly endless supply of cheap ale.<br\><br\>\
+		Standing behind the bar is a hard looking woman who surveys the residents of the inn with a calculating look. You think that if any were to start getting too rowdy - they would be on the road outside the inn in an instant. You head for the bar.",
+		choices:[
+			{
+				text:'Ask the bartender if she knows anything about the nightmares',
+				index:21
+			},
+			{
+				text:'Leave the inn and go back to the town centre',
+				index:12
+			}
+		]
+	},
+	{
+		title:'Bartender',
+		text:"The bartender cuts you off as you begin to ask about the nightmares.<br\><br\>\
+		“- look here, everyone has had the same damn nightmare and no I don’t know anything about it either. I’ve had drunken fools coming up to me all day complaining about it and thinking they’re the only one. Unless you’re ordering food or drink go someplace else. I don’t want to hear it.”",
+		choices:[
+			{
+				text:'Leave the woman alone and go back to the town centre',
+				index:12
+			}
+		]
+	},
+	{
+		title:'Mera',
+		text:"Meras face softens and she smiles.<br\><br\>\
+		“Ah of course, apologies if I seemed a little on edge...you have to be to run a place like this. How can I help?”",
+		choices:[
+			{
+				text:'Ask if she has had the nightmare too',
+				index:23
+			},
+			{
+				text:'Go back to the town centre',
+				index:12
+			}
+		]
+	},
+	{
+		title:'Mera',
+		text:"“Oh of course, who hasn’t eh”<br\><br\>\
+		She smiles wearily at this.<br\><br\>\
+		“I hope someone can sort this out soon - i’m starting to hear that whispering when i’m awake too….”",
+		choices:[
+			{
+				text:'Go back to the town centre',
+				index:12
+			}
+		]
+	},
+	{
+		title:'The Maiden and Shield',
+		text:"You explain that you believe the nightmares are being caused by a spirit who is stuck in the village and wants to leave. You describe how the nightmares are effectively messages - explaining what we need to do.<br\><br\>\
+		Mera nods and waits until you are finished explaining.<br\><br\>\
+		“Okay I understand, so what do you want from me?”<br\><br\>\
+		You explain that you were hoping she could tell you if anyone had died in the town recently - especially if there had been any mysterious circumstances surrounding their deaths.<br\><br\>\
+		She furrows he brow, thinking, and suddenly her eyes widen.<br\><br\>\
+		“Of course! The Orner girl...Joanne I think? She passed away recently. That must be it, I thought I recognised the voice from the dreams….she used to come by here all the time. Her father is the local blacksmith - he might be able to tell you more. Also if you need help actually helping the spirit move on, the druid woman with the stall might be able to help you out.”",
+		choices:[
+			{
+				text:'Thank Mera and head back to the town centre',
+				index:12
+			}
+		]
+	},
+	{
+		title:'Blacksmith',
+		text:"You make your way over to the forge - following the sound of hammering metal and roaring flame as air is pumped into the furnace from  huge set of bellows. The heavyset man does not seem to notice you approach until you stand almost in front of him. At this point he stops hammering, lays down his tool and looks you over.<br\><br\>\
+		“What’s this about”<br\><br\>\
+		His voice is gruff and hoarse, it does not seem as though he is in the mood for much conversation.",
+		choices:[
+			{
+				text:'Go back to the town centre',
+				index:12
+			}
+		]
+	},
 ]
