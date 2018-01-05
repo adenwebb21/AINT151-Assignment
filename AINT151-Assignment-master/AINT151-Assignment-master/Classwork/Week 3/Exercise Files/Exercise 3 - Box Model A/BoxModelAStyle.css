@@ -1,0 +1,45 @@
+#container {
+  height: 600px;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header {
+  width: 900px;
+  height: 70px;
+  line-height: 70px;
+  background-color: lightgrey;
+  margin-bottom: 5px;
+}
+
+#leftmenu {
+  float: left;
+  height: 500px;
+  line-height: 500px;
+  width: 295px;
+  background-color: lightgrey;
+  margin: 5px 5px 5px 0px;
+}
+
+#maincontent {
+  float: left;
+  height: 500px;
+  line-height: 500px;
+  width: 595px;
+  background-color: lightgrey;
+  margin: 5px 0px 5px 5px;
+}
+
+.clear {
+  clear:both;
+}
+
+#footer {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  width: 900px;
+  margin-top: 5px;
+  background-color: lightgrey;
+}

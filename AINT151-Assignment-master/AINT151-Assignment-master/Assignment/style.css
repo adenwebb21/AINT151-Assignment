@@ -1,0 +1,101 @@
+@font-face {
+  font-family: TitleFont;
+  src: url(TitleFont.TTF);
+}
+
+@font-face {
+  font-family: TextFont;
+  src: url(TextFont.ttf);
+}
+
+@font-face {
+  font-family: Planewalker;
+  src: url(Planewalker.otf);
+}
+
+ #body {
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-color: black;
+}
+#mainContent{
+  width:900px;
+  margin: 0 auto;
+}
+
+.titleAccent {
+  width:487px;
+  margin: 0 auto;
+  margin-top: -25px;
+  padding-bottom: 50px;
+}
+
+#roomTitle {
+  font-size: 30px;
+  text-align: center;
+  margin: 3% auto;
+  font-family: TitleFont;
+  color: white;
+  font-weight: normal;
+}
+
+#roomText {
+  text-align: center;
+}
+
+#roomChoices {
+  text-align: center;
+}
+
+#lockedRoomChoices {
+  text-align: center;
+}
+
+#container {
+  width: 750px;
+  height: 400px;
+  margin: 3% auto;
+  font-size: 22px;
+  font-family: Planewalker;
+  color: white;
+}
+
+#buttons {
+}
+
+#button {
+  font-size: 18px;
+  margin: 10px;
+  font-family: TitleFont;
+  background-color: #9C344C;
+  border-color: #9C344C;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: #C36279;
+}
+
+#lockedButton {
+  font-size: 18px;
+  margin: 10px;
+  font-family: TitleFont;
+  background-color: #236A62;
+  border-color: #236A62;
+  font-style: italic;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#lockedButton:hover {
+  background-color: #42847D;
+}
+
+#discoveryText {
+  text-align: center;
+  color: #236A62;
+  font-style: italic;
+}
