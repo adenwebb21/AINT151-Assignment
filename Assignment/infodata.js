@@ -42,5 +42,75 @@ var lockedChoicesArray = [
         index:7
 			}
 		]
+	},
+	{
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		choices:[
+			{
+				text:'Tell him that you believe he is in possession of a necklace belonging to the dead woman, you need it to free her',
+        index:15
+			}
+		]
+	},
+	{
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		choices:[
+			{
+				text:'Ask how to go about helping a spirit to move on',
+        index:18
+			}
+		]
 	}
 ]

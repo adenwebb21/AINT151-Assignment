@@ -1,4 +1,7 @@
 var examinedStable = false;
+var guntherSentYou = false;
+var hasNecklace = false;
+var hasTranslator = false;
 
 function OnLoad()
 {
@@ -51,6 +54,12 @@ function GetBackgroundImage(roomIndex)
 		case 7:
 			document.getElementById("body").background = "stable.png";
 			break;
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+			document.getElementById("body").background = "barraks.png";
+			break;
 		default:
 			document.getElementById("body").background = "";
 			break;
@@ -67,7 +76,11 @@ function CreateLockedButtons(roomIndex)
 				GetLockedButtons(roomIndex);
 			}
 			break;
-
+		case 14:
+			if (guntherSentYou == true)
+			{
+				GetLockedButtons(roomIndex);
+			}
 		default:
 			break;
 	}
@@ -81,7 +94,18 @@ function UpdateInfo(roomIndex)
 			examinedStable = true;
 			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have learned that the stable is well looked after - maybe you can use this to make the stable boy feel more comfortable";
 			break;
-
+		case 11:
+			guntherSentYou = true;
+			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have learned that Mera could be made more amenable by telling her that Gunther sent you";
+			break;
+		case 16:
+			hasNecklace = true;
+			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have retrieved the necklace from the hands of the gem trader.";
+			break;
+		case 17:
+			hasTranslator = true;
+			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have been granted a translator that will allow you to converse with the spirit.";
+			break;
 		default:
 			break;
 	}
