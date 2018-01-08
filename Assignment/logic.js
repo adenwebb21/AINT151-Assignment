@@ -5,6 +5,7 @@ var hasTranslator = false;
 var spokenToblacksmith = false;
 var woodedgrove = false;
 var knowWhoGhostIs = false;
+var knowAboutNecklace = false;
 
 function OnLoad()
 {
@@ -127,6 +128,11 @@ function CreateLockedButtons(roomIndex)
 			if (hasTranslator == true)
 			{
 				GetLockedButtons(roomIndex);
+			},
+		case 23:
+			if (hasTranslator == true)
+			{
+				GetLockedButtons(roomIndex);
 			}
 		default:
 			break;
@@ -156,6 +162,10 @@ function UpdateInfo(roomIndex)
 		case 24:
 			knowWhoGhostIs = true;
 			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have learned that the ghost is Joanne Orner - daughter of the blacksmith.";
+			break;
+		case 28:
+			woodedgrove = true;
+			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have learned about the wooded grove - out back of the inn.";
 			break;
 		default:
 			break;

@@ -150,5 +150,19 @@ var lockedChoicesArray = [
         index:24
 			}
 		]
-	}
+	},
+	{
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		choices:[
+			{
+				text:'Ask for any information regarding his daughter - you think it could be important for freeing the town from the nightmares',
+        index:27
+			}
+		]
+	},
 ]

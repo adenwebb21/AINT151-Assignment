@@ -357,8 +357,52 @@ var roomArray = [
 		His voice is gruff and hoarse, it does not seem as though he is in the mood for much conversation.",
 		choices:[
 			{
-				text:'Go back to the town centre',
+				text:'Ask the man if he knows anything about the nightmares',
+				index:26
+			}
+		]
+	},
+	{
+		title:'Blacksmith',
+		text:"He looks at you incredulously for a moment, before shaking his head and reaching for his hammer once again. He clearly does not have anything more important to say regarding the matter.",
+		choices:[
+			{
+				text:'Apologise for asking and retreat to the town centre',
 				index:12
+			}
+		]
+	},
+	{
+		title:'Blacksmith',
+		text:"He looks at you for a moment as though trying to determine if you are telling the truth. After some time he nods and asks you what exactly it is that you need to know.",
+		choices:[
+			{
+				text:'Ask where she was buried',
+				index:28
+			},
+			{
+				text:'Ask if there was any suspicious occurrences surrounding her death',
+				index:29
+			}
+		]
+	},
+	{
+		title:'Blacksmith',
+		text:"“She was buried in the small grove out behind the inn, in that little clearing? She always liked it out there”",
+		choices:[
+			{
+				text:'Ask something else',
+				index:29
+			}
+		]
+	},
+	{
+		title:'Blacksmith',
+		text:"“She was buried in the small grove out behind the inn, in that little clearing? She always liked it out there”",
+		choices:[
+			{
+				text:'Ask something else',
+				index:29
 			}
 		]
 	},
