@@ -398,11 +398,32 @@ var roomArray = [
 	},
 	{
 		title:'Blacksmith',
-		text:"“She was buried in the small grove out behind the inn, in that little clearing? She always liked it out there”",
+		text:"The blacksmith furrows his brow and looks angry.<br\><br\>\
+		“That pig of a man at the gem stall kept sniffing around - he’s tried to get me to sell her necklace for years. After she passed I couldn’t find the necklace anywhere. I’d put money on him having taken it”<br\><br\>\
+		You say you need the necklace to help rid the town of the nightmares. <br\><br\>\
+		“In that case you tell him that you know he’s been selling glass as expensive jewels for years - and you’ll bring it to the guards if he doesn’t return what you need, that should do it”",
 		choices:[
 			{
+				text:'Thank him and go back to the town centre',
+				index:12
+			},
+			{
 				text:'Ask something else',
-				index:29
+				index:27
+			}
+		]
+	},
+	{
+		title:'Wooded grove',
+		text:"You slip out of the back door of the inn and follow a small winding path up to the crest of a low mound. The trees are packed in around the inn but as you get further away the trees fall back and give way to low shrubs and tall grasses. The clearing opens out before you and you can see a small stream weaving its way around the border before disappearing into the trees.  On the far right hand side you can see a fairly fresh pile of turned earth. You recognise the location as the burial site of Joanne Orner. As you walk over to investigate the air appears to drop in temperature.",
+		choices:[
+			{
+				text:'Listen to see if you can hear any of the whispering that the guard described',
+				index:31
+			},
+			{
+				text:'Go back to the Maiden and Shield',
+				index:20
 			}
 		]
 	},

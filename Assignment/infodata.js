@@ -165,4 +165,43 @@ var lockedChoicesArray = [
 			}
 		]
 	},
+	{
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		choices:[
+			{
+
+			}
+		]
+	},
+	{
+		choices:[
+			{
+				text:'Listen to see if you can hear the whispering described by the guard (with the translator)',
+        index:32
+			}
+		]
+	}
 ]

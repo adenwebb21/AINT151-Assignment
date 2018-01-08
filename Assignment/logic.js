@@ -3,9 +3,10 @@ var guntherSentYou = false;
 var hasNecklace = false;
 var hasTranslator = false;
 var spokenToblacksmith = false;
-var woodedgrove = false;
+var woodedgrove = true;
 var knowWhoGhostIs = false;
 var knowAboutNecklace = false;
+var spokeToGuardAboutNightmare = false;
 
 function OnLoad()
 {
@@ -18,6 +19,12 @@ function SelectRoom(roomIndex)
 	document.getElementById('lockedRoomChoices').innerHTML = "";
 	document.getElementById('roomTitle').innerHTML = roomArray[roomIndex].title;
 	document.getElementById('roomText').innerHTML = roomArray[roomIndex].text;
+
+	if (roomIndex == 30 && guntherSentYou)
+	{
+		document.getElementById('roomText').innerHTML += "<br\><br\>\ You look around you and notice that the surroundings match the guards description of the nightmare almost perfectly."
+	}
+
 	document.getElementById('discoveryText').innerHTML = "";
 
 	for (var i = 0; i < roomArray[roomIndex].choices.length; i++)
@@ -128,8 +135,13 @@ function CreateLockedButtons(roomIndex)
 			if (hasTranslator == true)
 			{
 				GetLockedButtons(roomIndex);
-			},
+			}
 		case 23:
+			if (hasTranslator == true)
+			{
+				GetLockedButtons(roomIndex);
+			}
+		case 30:
 			if (hasTranslator == true)
 			{
 				GetLockedButtons(roomIndex);
@@ -146,6 +158,9 @@ function UpdateInfo(roomIndex)
 		case 5:
 			examinedStable = true;
 			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have learned that the stable is well looked after - maybe you can use this to make the stable boy feel more comfortable";
+			break;
+		case 10:
+			spokeToGuardAboutNightmare = true;
 			break;
 		case 11:
 			guntherSentYou = true;
@@ -166,6 +181,10 @@ function UpdateInfo(roomIndex)
 		case 28:
 			woodedgrove = true;
 			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have learned about the wooded grove - out back of the inn.";
+			break;
+		case 29:
+			knowAboutNecklace = true;
+			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have learned of the necklace that belonged to Joanne and the nefarious dealings of the gem merchant";
 			break;
 		default:
 			break;
