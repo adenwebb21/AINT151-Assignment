@@ -8,6 +8,11 @@ var knowWhoGhostIs = false;
 var knowAboutNecklace = false;
 var spokeToGuardAboutNightmare = false;
 
+var finMera = false;
+var finBlacksmith = false;
+var finDruid = false;
+var finGuard = false;
+
 function OnLoad()
 {
 	SelectRoom(0);
@@ -141,9 +146,28 @@ function CreateLockedButtons(roomIndex)
 			{
 				GetLockedButtons(roomIndex);
 			}
+		case 25:
+			if (knowWhoGhostIs == true)
+			{
+				GetLockedButtons(roomIndex);
+			}
 		case 30:
 			if (hasTranslator == true)
 			{
+				GetLockedButtons(roomIndex);
+			}
+		case 32:
+			if (hasNecklace == true)
+			{
+				GetLockedButtons(roomIndex);
+			}
+		case 37:
+		case 38:
+		case 39:
+		case 40:
+			if (finMera && finGuard && finDruid && finBlacksmith)
+			{
+
 				GetLockedButtons(roomIndex);
 			}
 		default:
@@ -185,6 +209,18 @@ function UpdateInfo(roomIndex)
 		case 29:
 			knowAboutNecklace = true;
 			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have learned of the necklace that belonged to Joanne and the nefarious dealings of the gem merchant";
+			break;
+		case 37:
+			finMera = true;
+			break;
+		case 38:
+			finBlacksmith = true;
+			break;
+		case 39:
+			finDruid = true;
+			break;
+		case 39:
+			finGuard = true;
 			break;
 		default:
 			break;

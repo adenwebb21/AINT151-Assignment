@@ -160,14 +160,14 @@ var lockedChoicesArray = [
 	{
 		choices:[
 			{
-				text:'Ask for any information regarding his daughter - you think it could be important for freeing the town from the nightmares',
-        index:27
 			}
 		]
 	},
 	{
 		choices:[
 			{
+				text:'Ask for any information regarding his daughter - you think it could be important for freeing the town from the nightmares',
+        index:27
 			}
 		]
 	},
@@ -203,5 +203,20 @@ var lockedChoicesArray = [
         index:32
 			}
 		]
-	}
+	},
+	{
+		choices:[
+			{
+
+			}
+		]
+	},
+	{
+		choices:[
+			{
+				text:'Say that you have the necklace',
+				index:34
+			}
+		]
+	},
 ]

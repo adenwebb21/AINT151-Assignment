@@ -185,7 +185,7 @@ var roomArray = [
 			},
 			{
 				text:'Head towards the forge',
-				index:24
+				index:25
 			}
 		]
 	},
@@ -424,6 +424,191 @@ var roomArray = [
 			{
 				text:'Go back to the Maiden and Shield',
 				index:20
+			}
+		]
+	},
+	{
+		title:'Wooded grove',
+		text:"As you strain your ears to listen for any sound, you notice a quiet whispering that seems to come from all around you. It doesn't sound like any language you can understand. The whispering seems to get louder and louder, it seems to be getting more urgent and frantic but you still don't understand what it is saying. Eventually the volume reaches such a point that you cannot stay - you retreat to the town center to regain your bearings and calm your shaken nerves.",
+		choices:[
+			{
+				text:'Go back to the town centre',
+				index:12
+			}
+		]
+	},
+	{
+		title:'Wooded grove',
+		text:"You strain your ears to listen for any sound and you do hear the whispering begin to rise around you. This time however you can understand the words that are being said. It sounds as though lots of voices are layered on top of one another so you can only make out snippets but it’s enough to understand the intention.<br\><br\>\
+		“Get the necklace….”<br\><br\>\
+		“...return to me….”<br\><br\>\
+		“.....do you have the necklace?....”<br\><br\>\
+		“Have you come to return what’s mine?.....”",
+		choices:[
+			{
+				text:'Say that you do not have the necklace but you will search for it',
+				index:33
+			}
+		]
+	},
+	{
+		title:'Wooded grove',
+		text:"When you admit that you do not have the item that the spirit is looking for, you hear the voices take on a more disappointed tone.<br\><br\>\
+		“...please try to find it”<br\><br\>\
+		“....bring it to me as soon as you can wanderer….”",
+		choices:[
+			{
+				text:'Head back to the Maiden and Shield',
+				index:20
+			}
+		]
+	},
+	{
+		title:'Wooded grove',
+		text:"As you say that you have the item the voices begin to sound more excited.<br\><br\>\
+		“You have it?...”<br\><br\>\
+		‘.....you are the first…..”<br\><br\>\
+		“..please, place it on the branch over the grave”<br\><br\>\
+		“....we cannot take it while it is in living hands…”",
+		choices:[
+			{
+				text:'Place the necklace on a branch above the grave',
+				index:35
+			}
+		]
+	},
+	{
+		title:'Wooded grove',
+		text:"You reach up and place the necklace on an overhanging branch. As soon as your fingers are no longer touching the fine silver - eerie strands of mist appear to form around the necklace, wrapping around. The strands of mist take the form of human hands, more strands appear and slowly elongate - stretching down towards the ground and twisting amongst the grass.<br\><br\>\
+		These begin to produce a human shape, until eventually you are standing before a young woman. Joanne presumably. She lifts the necklace from the branch and places it around her neck. You notice that the whispers are quieter now and more refined. They do not fight over one another as much.<br\><br\>\
+		“Thank you for returning what is mine”<br\><br\>\
+		Her voice is clear now, and she lowers her head before dissipating into the same mist from which she was formed. As soon as she is gone you feel the temperature in the clearing begin to raise and the birds you had not noticed were missing begin to sing again.",
+		choices:[
+			{
+				text:'Return to the town and conclude your business here',
+				index:36
+			}
+		]
+	},
+	{
+		title:'The End',
+		text:"You return to the town and notice immediately that the atmosphere is happier and more cheerful. Conversation continues as normal and people greet those that they recognise in the streets. The hunched soft spoken figures of before have gone and are replaced with smiling townspeople. <br\><br\>\
+		You decide to stay in the town a few more days to ensure that the nightmares have passed.<br\><br\>\
+		Once you are ready to leave the town you visit each of the residents you spoke to during your investigations to make sure they are experiencing no ill effects.",
+		choices:[
+			{
+				text:'Talk to Mera',
+				index:37
+			},
+			{
+				text:'Talk to the Blacksmith',
+				index:38
+			},
+			{
+				text:'Talk to the druid woman',
+				index:39
+			},
+			{
+				text:'Talk to the gem merchant',
+				index:40
+			},
+			{
+				text:'Talk to Gunther, the guard',
+				index:40
+			}
+		]
+	},
+	{
+		title:'The End - Mera',
+		text:"You find Mera behind the bar of the Maiden and Shield. She looks up and seems pleased to see you.<br\><br\>\
+		“Ah it’s you! Thank you so much for all you’ve done for our little town. It’s such a relief to know that Joanne is happier now and got what she needed. You’re more than welcome to stay here any time.”",
+		choices:[
+			{
+				text:'Talk to the Blacksmith',
+				index:38
+			},
+			{
+				text:'Talk to the druid woman',
+				index:39
+			},
+			{
+				text:'Talk to the gem merchant',
+				index:40
+			},
+			{
+				text:'Talk to Gunther, the guard',
+				index:40
+			}
+		]
+	},
+	{
+		title:'The End - Blacksmith',
+		text:"The blacksmith is sitting behind a grinding wheel - honing the edge on a woodcutting axe that is resting across his lap. He spots you coming and raises a hand in greeting.<br\><br\>\
+		“How are you doing my friend - I wanted to thank you for helping out my daughter, it’s hard enough losing a loved one but knowing she was stuck here just made it that much worse. Give me a shout if you’re ever in town again and we’ll get a drink. By the way, that gem merchant? I wouldn’t bother looking for him, he’s been taken in by the town guards. Apparently he doesn’t want to take visitors”",
+		choices:[
+			{
+				text:'Talk to Mera',
+				index:37
+			},
+			{
+				text:'Talk to the druid woman',
+				index:39
+			},
+			{
+				text:'Talk to the gem merchant',
+				index:40
+			},
+			{
+				text:'Talk to Gunther, the guard',
+				index:40
+			}
+		]
+	},
+	{
+		title:'The End - Druid',
+		text:"The druid woman is seated behind her stall as you found her before. You do notice however, with some amount of satisfaction, that the gem traders stall is empty. She watches you approach with a slight smile.<br\><br\>\
+		“I hear you were...successful, that is good”<br\><br\>\
+		“The fewer unhappy spirits there are…..the better”<br\><br\>\
+		You begin to remove the translator from your pocket to give back to her but she shakes her head and pushes your hand away.<br\><br\>\
+		“No no….this is yours now…..i’m sure you will find use for it”<br\><br\>\
+		“Good luck on your travels….adventurer”",
+		choices:[
+			{
+				text:'Talk to Mera',
+				index:37
+			},
+			{
+				text:'Talk to the Blacksmith',
+				index:38
+			},
+			{
+				text:'Talk to the gem merchant',
+				index:40
+			},
+			{
+				text:'Talk to Gunther, the guard',
+				index:40
+			}
+		]
+	},
+	{
+		title:'The End - Guard',
+		text:"You head towards the jail block building near the entrance of town just in time to see the gem merchant being helped in through the door by a pair of guards. He sees you and scowls miserably before he is lost from view. Gunther, the guard you met at the start, was watching as the guards entered the building but now turns to you with a smile.<br\><br\>\
+		“Ah, it’s you again. Great to see you, I was hoping you’d come by before you left.”<br\><br\>\
+		He gestures towards the door of the jail block.<br\><br\>\
+		“It’s certainly a nice change to be dealing with actual criminals now instead of complaints about those damned nightmares. Good thing you did, it won’t be forgotten in a hurry i’ll tell you that”",
+		choices:[
+			{
+				text:'Talk to Mera',
+				index:37
+			},
+			{
+				text:'Talk to the Blacksmith',
+				index:38
+			},
+			{
+				text:'Talk to the druid woman',
+				index:39
 			}
 		]
 	},
