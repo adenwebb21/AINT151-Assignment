@@ -154,6 +154,14 @@ var lockedChoicesArray = [
 	{
 		choices:[
 			{
+				text:'Ask if anyone has died in the town recently',
+        index:24
+			}
+		]
+	},
+	{
+		choices:[
+			{
 			}
 		]
 	},

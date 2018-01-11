@@ -3,7 +3,7 @@ var guntherSentYou = false;
 var hasNecklace = false;
 var hasTranslator = false;
 var spokenToblacksmith = false;
-var woodedgrove = true;
+var woodedgrove = false;
 var knowWhoGhostIs = false;
 var knowAboutNecklace = false;
 var spokeToGuardAboutNightmare = false;
@@ -112,11 +112,6 @@ function CreateLockedButtons(roomIndex)
 			}
 			break;
 		case 14:
-			if (guntherSentYou == true)
-			{
-				GetLockedButtons(roomIndex);
-			}
-		case 14:
 			if (spokenToblacksmith == true)
 			{
 				GetLockedButtons(roomIndex);
@@ -167,7 +162,6 @@ function CreateLockedButtons(roomIndex)
 		case 40:
 			if (finMera && finGuard && finDruid && finBlacksmith)
 			{
-
 				GetLockedButtons(roomIndex);
 			}
 		default:
@@ -183,9 +177,9 @@ function UpdateInfo(roomIndex)
 			examinedStable = true;
 			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have learned that the stable is well looked after - maybe you can use this to make the stable boy feel more comfortable";
 			break;
-		case 10:
+		/*case 10:
 			spokeToGuardAboutNightmare = true;
-			break;
+			break;*/
 		case 11:
 			guntherSentYou = true;
 			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have learned that Mera could be made more amenable by telling her that Gunther sent you";
@@ -203,6 +197,7 @@ function UpdateInfo(roomIndex)
 			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have learned that the ghost is Joanne Orner - daughter of the blacksmith.";
 			break;
 		case 28:
+			alert("this thing hasss changedd")
 			woodedgrove = true;
 			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have learned about the wooded grove - out back of the inn.";
 			break;

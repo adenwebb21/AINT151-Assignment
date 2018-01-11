@@ -186,6 +186,10 @@ var roomArray = [
 			{
 				text:'Head towards the forge',
 				index:25
+			},
+			{
+				text:'Go back to the barracks',
+				index:9
 			}
 		]
 	},
