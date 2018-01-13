@@ -1,41 +1,48 @@
 var lockedChoicesArray = [
 	{
+		<!--0-->
 		choices:[
 			{
 			}
 		]
 	},
   {
+		<!--1-->
 		choices:[
 			{
 			}
 		]
 	},
   {
+		<!--2-->
 		choices:[
 			{
 			}
 		]
 	},
   {
+		<!--3-->
 		choices:[
 			{
 			}
 		]
 	},
   {
+		<!--4-->
 		choices:[
 			{
 			}
 		]
 	},
   {
+		<!--5-->
 		choices:[
 			{
 			}
 		]
 	},
   {
+		<!--6-->
 		choices:[
 			{
         text:'Tell the boy that you can tell your horse will be well looked after here',
@@ -44,48 +51,56 @@ var lockedChoicesArray = [
 		]
 	},
 	{
+		<!--7-->
 		choices:[
 			{
 			}
 		]
 	},
 	{
+		<!--8-->
 		choices:[
 			{
 			}
 		]
 	},
 	{
+		<!--9-->
 		choices:[
 			{
 			}
 		]
 	},
 	{
+		<!--10-->
 		choices:[
 			{
 			}
 		]
 	},
 	{
+		<!--11-->
 		choices:[
 			{
 			}
 		]
 	},
 	{
+		<!--12-->
 		choices:[
 			{
 			}
 		]
 	},
 	{
+		<!--13-->
 		choices:[
 			{
 			}
 		]
 	},
 	{
+		<!--14-->
 		choices:[
 			{
 				text:'Tell him that you believe he is in possession of a necklace belonging to the dead woman, you need it to free her',
@@ -94,18 +109,21 @@ var lockedChoicesArray = [
 		]
 	},
 	{
+		<!--15-->
 		choices:[
 			{
 			}
 		]
 	},
 	{
+		<!--16-->
 		choices:[
 			{
 			}
 		]
 	},
 	{
+		<!--17-->
 		choices:[
 			{
 				text:'Ask how to go about helping a spirit to move on',
@@ -114,6 +132,7 @@ var lockedChoicesArray = [
 		]
 	},
 	{
+		<!--18-->
 		choices:[
 			{
 				text:'Mention that the Joanne had a necklace that she loved, it had since gone missing',
@@ -122,12 +141,14 @@ var lockedChoicesArray = [
 		]
 	},
 	{
+		<!--19-->
 		choices:[
 			{
 			}
 		]
 	},
 	{
+		<!--20-->
 		choices:[
 			{
 				text:'Go through the inn and towards the wooded grove',
@@ -136,6 +157,7 @@ var lockedChoicesArray = [
 		]
 	},
 	{
+		<!--21-->
 		choices:[
 			{
 				text:'Tell her Gunther sent you',
@@ -144,6 +166,7 @@ var lockedChoicesArray = [
 		]
 	},
 	{
+		<!--22-->
 		choices:[
 			{
 				text:'Ask if anyone has died in the town recently',
@@ -152,6 +175,7 @@ var lockedChoicesArray = [
 		]
 	},
 	{
+		<!--23-->
 		choices:[
 			{
 				text:'Ask if anyone has died in the town recently',
@@ -160,18 +184,14 @@ var lockedChoicesArray = [
 		]
 	},
 	{
+		<!--24-->
 		choices:[
 			{
 			}
 		]
 	},
 	{
-		choices:[
-			{
-			}
-		]
-	},
-	{
+		<!--25-->
 		choices:[
 			{
 				text:'Ask for any information regarding his daughter - you think it could be important for freeing the town from the nightmares',
@@ -180,31 +200,35 @@ var lockedChoicesArray = [
 		]
 	},
 	{
+		<!--26-->
 		choices:[
 			{
 			}
 		]
 	},
 	{
+		<!--27-->
 		choices:[
 			{
 			}
 		]
 	},
 	{
+		<!--28-->
 		choices:[
 			{
 			}
 		]
 	},
 	{
+		<!--29-->
 		choices:[
 			{
-
 			}
 		]
 	},
 	{
+		<!--30-->
 		choices:[
 			{
 				text:'Listen to see if you can hear the whispering described by the guard (with the translator)',
@@ -213,13 +237,14 @@ var lockedChoicesArray = [
 		]
 	},
 	{
+		<!--31-->
 		choices:[
 			{
-
 			}
 		]
 	},
 	{
+		<!--32-->
 		choices:[
 			{
 				text:'Say that you have the necklace',
@@ -227,4 +252,68 @@ var lockedChoicesArray = [
 			}
 		]
 	},
+	{
+		<!--33-->
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		<!--34-->
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		<!--35-->
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		<!--36-->
+		choices:[
+			{
+			}
+		]
+	},
+	{
+		<!--37-->
+		choices:[
+			{
+				text:'Restart the game',
+				index:0
+			}
+		]
+	},
+	{
+		<!--38-->
+		choices:[
+			{
+				text:'Restart the game',
+				index:0
+			}
+		]
+	},
+	{
+		<!--39-->
+		choices:[
+			{
+				text:'Restart the game',
+				index:0
+			}
+		]
+	},
+	{
+		<!--40-->
+		choices:[
+			{
+				text:'Restart the game',
+				index:0
+			}
+		]
+	}
 ]

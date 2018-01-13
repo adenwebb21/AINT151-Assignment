@@ -2,7 +2,6 @@ var examinedStable = false;
 var guntherSentYou = false;
 var hasNecklace = false;
 var hasTranslator = false;
-var spokenToblacksmith = false;
 var woodedgrove = false;
 var knowWhoGhostIs = false;
 var knowAboutNecklace = false;
@@ -74,9 +73,11 @@ function GetBackgroundImage(roomIndex)
 		case 9:
 		case 10:
 		case 11:
+		case 40:
 			document.getElementById("body").background = "barraks.png";
 			break;
 		case 12:
+		case 36:
 			document.getElementById("body").background = "towncentre.png";
 			break;
 		case 13:
@@ -86,6 +87,7 @@ function GetBackgroundImage(roomIndex)
 		case 17:
 		case 18:
 		case 19:
+		case 39:
 			document.getElementById("body").background = "marketstalls.png";
 			break;
 		case 20:
@@ -93,7 +95,24 @@ function GetBackgroundImage(roomIndex)
 		case 22:
 		case 23:
 		case 24:
+		case 37:
 			document.getElementById("body").background = "inn.png";
+			break;
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+		case 29:
+		case 38:
+			document.getElementById("body").background = "forge.png";
+			break;
+		case 30:
+		case 31:
+		case 32:
+		case 33:
+		case 34:
+		case 35:
+			document.getElementById("body").background = "woodedgrove.png";
 			break;
 		default:
 			document.getElementById("body").background = "";
@@ -112,50 +131,65 @@ function CreateLockedButtons(roomIndex)
 			}
 			break;
 		case 14:
-			if (spokenToblacksmith == true)
+			if (knowAboutNecklace == true)
 			{
 				GetLockedButtons(roomIndex);
 			}
+			break;
+		case 17:
+			if (knowWhoGhostIs == true)
+			{
+				GetLockedButtons(roomIndex);
+			}
+			break;
+		case 18:
+			if (knowAboutNecklace == true)
+			{
+				GetLockedButtons(roomIndex);
+			}
+			break;
 		case 20:
 			if (woodedgrove == true)
 			{
 				GetLockedButtons(roomIndex);
 			}
+			break;
 		case 21:
 			if (guntherSentYou == true)
 			{
 				GetLockedButtons(roomIndex);
 			}
+			break;
 		case 22:
 			if (hasTranslator == true)
 			{
 				GetLockedButtons(roomIndex);
 			}
+			break;
 		case 23:
 			if (hasTranslator == true)
 			{
 				GetLockedButtons(roomIndex);
 			}
-		case 23:
-			if (hasTranslator == true)
-			{
-				GetLockedButtons(roomIndex);
-			}
+			break;
 		case 25:
 			if (knowWhoGhostIs == true)
 			{
 				GetLockedButtons(roomIndex);
 			}
+			break;
 		case 30:
 			if (hasTranslator == true)
 			{
 				GetLockedButtons(roomIndex);
 			}
+			break;
 		case 32:
 			if (hasNecklace == true)
 			{
 				GetLockedButtons(roomIndex);
 			}
+			break;
 		case 37:
 		case 38:
 		case 39:
@@ -164,6 +198,7 @@ function CreateLockedButtons(roomIndex)
 			{
 				GetLockedButtons(roomIndex);
 			}
+			break;
 		default:
 			break;
 	}
@@ -197,7 +232,6 @@ function UpdateInfo(roomIndex)
 			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have learned that the ghost is Joanne Orner - daughter of the blacksmith.";
 			break;
 		case 28:
-			alert("this thing hasss changedd")
 			woodedgrove = true;
 			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have learned about the wooded grove - out back of the inn.";
 			break;
@@ -214,7 +248,7 @@ function UpdateInfo(roomIndex)
 		case 39:
 			finDruid = true;
 			break;
-		case 39:
+		case 40:
 			finGuard = true;
 			break;
 		default:

@@ -13,11 +13,12 @@
   src: url(Planewalker.otf);
 }
 
- #body {
-   background-repeat: no-repeat;
-   background-size: 100%;
-   background-color: black;
+#body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: black;
 }
+
 #mainContent{
   width:900px;
   margin: 0 auto;
@@ -61,6 +62,8 @@
 }
 
 #buttons {
+  padding-top: 150px;
+  clear: right;
 }
 
 #button {

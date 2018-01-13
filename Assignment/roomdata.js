@@ -1,5 +1,6 @@
 var roomArray = [
 	{
+		<!--0-->
 		title:'Introduction',
 		text:"You approach the town of Fandalin on horseback, riding in following rumours of a monster hidden among the townsfolk. Outside of the bounds of the town are a number of farms - no doubt supplying vegetables and meat to the markets situated within. You see a miserable looking man standing by the side of the road. <br\><br\> You had been sent to this town following reports of strange occurrences.",
 		choices:[
@@ -14,6 +15,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--1-->
 		title:'Talking to Farmer',
 		text:"You slow your horse to a trot and then to a full stop, calling out to the man. He looks up and narrows his eyes at you with apparent suspicion. You can see that his clothes are fairly thin and ragged and a scraggly beard covered his chin and lower jaw.\
     <br\><br\>'Was it you? Did you scare off my pigs? All you adventurers, can’t trust any of ya!'\
@@ -32,6 +34,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--2-->
 		title:'Talking to Farmer about Pigs',
 		text:"You ask the farmer for more information about the pigs.\
     <br\><br\>'They weren’t easily scared i’ll tell you that! Takes a lot to spook em. Whatever it was must have been real scary...'\
@@ -44,6 +47,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--3-->
 		title:'Outskirts of the Fandalin',
 		text:"You leave the farmer behind you and ride right up to the edge of the town called Fandalin. Just outside of its boundaries you spot a stable. Beyond that you can see a few townspeople milling around and hear the distant clang of a blacksmith working metal.",
 		choices:[
@@ -58,6 +62,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--4-->
 		title:'Stable Entrance',
 		text:"You arrive at the stable and swing down off your horse, smiling at the stable boy who regards you warily.",
 		choices:[
@@ -76,6 +81,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--5-->
 		title:'Investigating the Stable',
 		text:"You look around the stable and see, to your surprise, that it is more or less pristine. The hay all looks to have been changed recently and the wooden supports and dividers look to have just recently been cleaned.",
 		choices:[
@@ -90,6 +96,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--6-->
 		title:'Talking with the Stable Boy',
 		text:"You wave to the stable boy and try a hello. He just looks at you, his eyes shifting from side to side as though he is about to make a quick escape. You can tell he is uncomfortable.\
 			You try asking if he has seen anything unusual. To this he just shakes his head quickly and looks away.",
@@ -101,6 +108,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--7-->
 		title:'Complimenting with the Stable Boy',
 		text:"The boy smiles and seems to appreciate that you noticed his hard work.<br\><br\>\
 		'Well...when I was tending to one of the horses that was here last night, something scared her pretty bad. I tried to get a look but I couldn’t see anyone. I thought I heard someone whispering behind me though...I didn’t understand the language but it sounded like a woman's voice. Sent chills right down my back.'",
@@ -112,6 +120,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--8-->
 		title:'Barracks',
 		text:"You leave the stable behind you and head towards a low, squat building with barred windows and a heavy wooden door. Sitting on a bench just outside is a guard with a gaunt looking face. He wears a padded cloth shirt and rests his hand on a short club at his belt. He looks up as you approach.",
 		choices:[
@@ -126,6 +135,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--9-->
 		title:'Talking to Guard',
 		text:"'Hail traveller, what can I do for you'<br\><br\>\
 		You notice that he looks very tired. You inform the man that you’re here to investigate the strange occurrences and he appears relieved.<br\><br\>\
@@ -146,6 +156,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--10-->
 		title:'Talking to the Guard',
 		text:"The guardsman shivers slightly as he thinks back to the nightmare - it’s clearly an unpleasant thing to remember.<br\><br\>\
 		'I remember the whispering pretty clearly, it was a female voice but no language that i’d heard before. It’s all dark to begin with - just the whispering - but then after a while it starts to get light and then you see that you’re surrounded by trees I think there was also the sound of a quiet stream nearby? The whispering gets louder and louder, as though she’s trying to direct you somewhere. Eventually it gets so loud that you wake up. It’s the same story with everyone.'",
@@ -157,6 +168,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--11-->
 		title:'Talking to the Guard',
 		text:"You ask the guard if there is anyone in town that he recommends you see, perhaps regarding any recent changes in the town that could have led to this situation. He considers for a moment before nodding and pointing further into town.<br\><br\>\
 		'I'd recommend you go see Mera at the Maiden and Shield - she knows all the local stories and could surely give you some information if you asked. Tell her Gunther sent you and she’ll be a little more approachable.<br\><br\>\
@@ -169,6 +181,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--12-->
 		title:'Town Centre',
 		text:"You head towards where the majority of the noise is coming from and find yourself in what you assume to be the town centre. There are lots of people milling around and you imagine that it would usually have an upbeat and social atmosphere. But not now - people walked from place to place with their eyes cast down and their clothes wrapped tightly about their shoulders.<br\><br\>\
 		There is very little conversation, but what you can hear is hushed and frantic. Nestled between two large buildings are two market stalls, their wares on display for passersby to see. <br\><br\>\
@@ -194,6 +207,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--13-->
 		title:'Market Stalls',
 		text:"You wander over to the market stalls and glance at the wares and those selling them.<br\><br\>\
 		The first of the stalls was a large, colourful, affair. It’s blue and yellow bunting fluttered in the light breeze. Laid out over the tabletop is a wide variety of gems and fine jewelry. Standing behind the stall is a short plump man in fine fabrics. He had small eyes and a large nose - a cruel smirk on his lips as he regarded you. <br\><br\>\
@@ -214,6 +228,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--14-->
 		title:'Gem Stall',
 		text:"As you approach the stall the plump man smiles widely.<br\><br\>\
 		“Welcome fine adventurer! Looking for something a little more expensive? A little shiny? A little...magical?”<br\><br\>\
@@ -228,6 +243,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--15-->
 		title:'Gem Stall',
 		text:"He looks at you suspiciously and spreads his hands wide. <br\><br\>\
 		“Why would I have an item like that, and even if I did….why would I just give it up?”<br\><br\>\
@@ -240,6 +256,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--16-->
 		title:'Gem Stall',
 		text:"You bring up what the blacksmith told you about the jewelers lies. You watch with some satisfaction as his face falls and he responds to you in a hushed voice - tripping over his words.<br\><br\>\
 		“Keep your voice down! Don’t bring that up here, please don’t bring it to the guards they’ll kick me out….you want your necklace? Fine I have it”<br\><br\>\
@@ -253,6 +270,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--17-->
 		title:'Druid Stall',
 		text:"“You are here investigating the nightmares?”<br\><br\>\
 		Her voice is low and you have to strain to hear her over the hubbub of the town centre. You nod at her, you say you were wondering if she had seen anything like this before.<br\><br\>\
@@ -267,6 +285,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--18-->
 		title:'Druid Stall',
 		text:"“Ah….so you know who the spirit is? That’s good...in order to free them and help them move on you will need to determine the cause of their entrapment….an item perhaps?””",
 		choices:[
@@ -277,6 +296,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--19-->
 		title:'Druid Stall',
 		text:"“If you can find the item, you’ll need to bring it to the location of her burial. Once there the spirit should take the item from you and be free to move on...the burial location however is something I cannot tell you….maybe a member of her family will be able to help you?”",
 		choices:[
@@ -287,6 +307,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--20-->
 		title:'The Maiden and Shield',
 		text:"As you enter the inn through a large wooden door, you are greeted with a warm and friendly interior. It is lit by a large fireplace in one wall and multiple wall sconces scattered around the others. A large pot is bubbling over the fire - from the smell of it it’s a peppery stew, ready to be served on demand. The inn is busy but not unpleasantly so and the patrons appear more friendly and conversational than those outside. You assume that this is due in part to the seemingly endless supply of cheap ale.<br\><br\>\
 		Standing behind the bar is a hard looking woman who surveys the residents of the inn with a calculating look. You think that if any were to start getting too rowdy - they would be on the road outside the inn in an instant. You head for the bar.",
@@ -302,6 +323,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--21-->
 		title:'Bartender',
 		text:"The bartender cuts you off as you begin to ask about the nightmares.<br\><br\>\
 		“- look here, everyone has had the same damn nightmare and no I don’t know anything about it either. I’ve had drunken fools coming up to me all day complaining about it and thinking they’re the only one. Unless you’re ordering food or drink go someplace else. I don’t want to hear it.”",
@@ -313,6 +335,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--22-->
 		title:'Mera',
 		text:"Meras face softens and she smiles.<br\><br\>\
 		“Ah of course, apologies if I seemed a little on edge...you have to be to run a place like this. How can I help?”",
@@ -328,6 +351,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--23-->
 		title:'Mera',
 		text:"“Oh of course, who hasn’t eh”<br\><br\>\
 		She smiles wearily at this.<br\><br\>\
@@ -340,6 +364,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--24-->
 		title:'The Maiden and Shield',
 		text:"You explain that you believe the nightmares are being caused by a spirit who is stuck in the village and wants to leave. You describe how the nightmares are effectively messages - explaining what we need to do.<br\><br\>\
 		Mera nods and waits until you are finished explaining.<br\><br\>\
@@ -355,6 +380,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--25-->
 		title:'Blacksmith',
 		text:"You make your way over to the forge - following the sound of hammering metal and roaring flame as air is pumped into the furnace from  huge set of bellows. The heavyset man does not seem to notice you approach until you stand almost in front of him. At this point he stops hammering, lays down his tool and looks you over.<br\><br\>\
 		“What’s this about”<br\><br\>\
@@ -367,6 +393,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--26-->
 		title:'Blacksmith',
 		text:"He looks at you incredulously for a moment, before shaking his head and reaching for his hammer once again. He clearly does not have anything more important to say regarding the matter.",
 		choices:[
@@ -377,6 +404,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--27-->
 		title:'Blacksmith',
 		text:"He looks at you for a moment as though trying to determine if you are telling the truth. After some time he nods and asks you what exactly it is that you need to know.",
 		choices:[
@@ -391,16 +419,18 @@ var roomArray = [
 		]
 	},
 	{
+		<!--28-->
 		title:'Blacksmith',
 		text:"“She was buried in the small grove out behind the inn, in that little clearing? She always liked it out there”",
 		choices:[
 			{
 				text:'Ask something else',
-				index:29
+				index:27
 			}
 		]
 	},
 	{
+		<!--29-->
 		title:'Blacksmith',
 		text:"The blacksmith furrows his brow and looks angry.<br\><br\>\
 		“That pig of a man at the gem stall kept sniffing around - he’s tried to get me to sell her necklace for years. After she passed I couldn’t find the necklace anywhere. I’d put money on him having taken it”<br\><br\>\
@@ -418,6 +448,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--30-->
 		title:'Wooded grove',
 		text:"You slip out of the back door of the inn and follow a small winding path up to the crest of a low mound. The trees are packed in around the inn but as you get further away the trees fall back and give way to low shrubs and tall grasses. The clearing opens out before you and you can see a small stream weaving its way around the border before disappearing into the trees.  On the far right hand side you can see a fairly fresh pile of turned earth. You recognise the location as the burial site of Joanne Orner. As you walk over to investigate the air appears to drop in temperature.",
 		choices:[
@@ -432,6 +463,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--31-->
 		title:'Wooded grove',
 		text:"As you strain your ears to listen for any sound, you notice a quiet whispering that seems to come from all around you. It doesn't sound like any language you can understand. The whispering seems to get louder and louder, it seems to be getting more urgent and frantic but you still don't understand what it is saying. Eventually the volume reaches such a point that you cannot stay - you retreat to the town center to regain your bearings and calm your shaken nerves.",
 		choices:[
@@ -442,6 +474,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--32-->
 		title:'Wooded grove',
 		text:"You strain your ears to listen for any sound and you do hear the whispering begin to rise around you. This time however you can understand the words that are being said. It sounds as though lots of voices are layered on top of one another so you can only make out snippets but it’s enough to understand the intention.<br\><br\>\
 		“Get the necklace….”<br\><br\>\
@@ -456,6 +489,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--33-->
 		title:'Wooded grove',
 		text:"When you admit that you do not have the item that the spirit is looking for, you hear the voices take on a more disappointed tone.<br\><br\>\
 		“...please try to find it”<br\><br\>\
@@ -468,6 +502,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--34-->
 		title:'Wooded grove',
 		text:"As you say that you have the item the voices begin to sound more excited.<br\><br\>\
 		“You have it?...”<br\><br\>\
@@ -482,6 +517,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--35-->
 		title:'Wooded grove',
 		text:"You reach up and place the necklace on an overhanging branch. As soon as your fingers are no longer touching the fine silver - eerie strands of mist appear to form around the necklace, wrapping around. The strands of mist take the form of human hands, more strands appear and slowly elongate - stretching down towards the ground and twisting amongst the grass.<br\><br\>\
 		These begin to produce a human shape, until eventually you are standing before a young woman. Joanne presumably. She lifts the necklace from the branch and places it around her neck. You notice that the whispers are quieter now and more refined. They do not fight over one another as much.<br\><br\>\
@@ -495,6 +531,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--36-->
 		title:'The End',
 		text:"You return to the town and notice immediately that the atmosphere is happier and more cheerful. Conversation continues as normal and people greet those that they recognise in the streets. The hunched soft spoken figures of before have gone and are replaced with smiling townspeople. <br\><br\>\
 		You decide to stay in the town a few more days to ensure that the nightmares have passed.<br\><br\>\
@@ -523,6 +560,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--37-->
 		title:'The End - Mera',
 		text:"You find Mera behind the bar of the Maiden and Shield. She looks up and seems pleased to see you.<br\><br\>\
 		“Ah it’s you! Thank you so much for all you’ve done for our little town. It’s such a relief to know that Joanne is happier now and got what she needed. You’re more than welcome to stay here any time.”",
@@ -546,6 +584,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--38-->
 		title:'The End - Blacksmith',
 		text:"The blacksmith is sitting behind a grinding wheel - honing the edge on a woodcutting axe that is resting across his lap. He spots you coming and raises a hand in greeting.<br\><br\>\
 		“How are you doing my friend - I wanted to thank you for helping out my daughter, it’s hard enough losing a loved one but knowing she was stuck here just made it that much worse. Give me a shout if you’re ever in town again and we’ll get a drink. By the way, that gem merchant? I wouldn’t bother looking for him, he’s been taken in by the town guards. Apparently he doesn’t want to take visitors”",
@@ -569,6 +608,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--39-->
 		title:'The End - Druid',
 		text:"The druid woman is seated behind her stall as you found her before. You do notice however, with some amount of satisfaction, that the gem traders stall is empty. She watches you approach with a slight smile.<br\><br\>\
 		“I hear you were...successful, that is good”<br\><br\>\
@@ -596,6 +636,7 @@ var roomArray = [
 		]
 	},
 	{
+		<!--40-->
 		title:'The End - Guard',
 		text:"You head towards the jail block building near the entrance of town just in time to see the gem merchant being helped in through the door by a pair of guards. He sees you and scowls miserably before he is lost from view. Gunther, the guard you met at the start, was watching as the guards entered the building but now turns to you with a smile.<br\><br\>\
 		“Ah, it’s you again. Great to see you, I was hoping you’d come by before you left.”<br\><br\>\
