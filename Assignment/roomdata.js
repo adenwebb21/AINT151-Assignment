@@ -2,7 +2,8 @@ var roomArray = [
 	{
 		<!--0-->
 		title:'Introduction',
-		text:"You approach the town of Fandalin on horseback, riding in following rumours of a monster hidden among the townsfolk. Outside of the bounds of the town are a number of farms - no doubt supplying vegetables and meat to the markets situated within. You see a miserable looking man standing by the side of the road. <br\><br\> You had been sent to this town following reports of strange occurrences.",
+		text:"You approach the town of Fandalin on horseback, riding in following rumours of a monster hidden among the townsfolk. Outside of the bounds of the town are a number of farms - no doubt supplying vegetables and meat to the markets situated within. You see a miserable looking man standing by the side of the road. <br\><br\> You had been sent to this town following reports of strange occurrences.<br\><br\>\
+		PLEASE PUT NAME SUGGESTIONS IN THE FEEDBACK FORM",
 		choices:[
 			{
 				text:'Approach the man',
