@@ -419,10 +419,6 @@ var roomArray = [
 			{
 				text:'Ask if there was any suspicious occurrences surrounding her death',
 				index:29
-			},
-			{
-				text:'Head back to the town centre',
-				index:12
 			}
 		]
 	},
@@ -434,6 +430,10 @@ var roomArray = [
 			{
 				text:'Ask something else',
 				index:27
+			},
+			{
+				text:'Thank him and go back to the town centre',
+				index:12
 			}
 		]
 	},
@@ -559,7 +559,7 @@ var roomArray = [
 			},
 			{
 				text:'Talk to the gem merchant',
-				index:40
+				index:41
 			},
 			{
 				text:'Talk to Gunther, the guard',
@@ -583,7 +583,7 @@ var roomArray = [
 			},
 			{
 				text:'Talk to the gem merchant',
-				index:40
+				index:41
 			},
 			{
 				text:'Talk to Gunther, the guard',
@@ -607,7 +607,7 @@ var roomArray = [
 			},
 			{
 				text:'Talk to the gem merchant',
-				index:40
+				index:41
 			},
 			{
 				text:'Talk to Gunther, the guard',
@@ -635,7 +635,7 @@ var roomArray = [
 			},
 			{
 				text:'Talk to the gem merchant',
-				index:40
+				index:41
 			},
 			{
 				text:'Talk to Gunther, the guard',
@@ -665,4 +665,28 @@ var roomArray = [
 			}
 		]
 	},
+	{
+		<!--41-->
+		title:'The End - Gem Stall',
+		text:"You approach the maket stalls with the intent of talking with the gem merchant one final time. However when you get there you discover his stand deserted and suprisingly bare looking. <br\><br\>\
+		The druid woman notices your confused expression and explains that he was taken away by the city guard just moments before.",
+		choices:[
+			{
+				text:'Talk to Mera',
+				index:37
+			},
+			{
+				text:'Talk to the Blacksmith',
+				index:38
+			},
+			{
+				text:'Talk to the druid woman',
+				index:39
+			},
+			{
+				text:'Talk to Gunther, the guard',
+				index:40
+			}
+		]
+	}
 ]
