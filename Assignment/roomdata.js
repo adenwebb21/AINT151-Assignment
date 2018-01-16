@@ -419,6 +419,10 @@ var roomArray = [
 			{
 				text:'Ask if there was any suspicious occurrences surrounding her death',
 				index:29
+			},
+			{
+				text:'Head back to the town centre',
+				index:12
 			}
 		]
 	},
