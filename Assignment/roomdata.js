@@ -2,8 +2,7 @@ var roomArray = [
 	{
 		<!--0-->
 		title:'Introduction',
-		text:"You approach the town of Fandalin on horseback, riding in following rumours of a monster hidden among the townsfolk. Outside of the bounds of the town are a number of farms - no doubt supplying vegetables and meat to the markets situated within. You see a miserable looking man standing by the side of the road. <br\><br\> You had been sent to this town following reports of strange occurrences.<br\><br\>\
-		PLEASE PUT NAME SUGGESTIONS IN THE FEEDBACK FORM",
+		text:"You approach the town of Fandalin on horseback, riding in following rumours of a monster hidden among the townsfolk. Outside of the bounds of the town are a number of farms - no doubt supplying vegetables and meat to the markets situated within. You see a miserable looking man standing by the side of the road. <br\><br\> You had been sent to this town following reports of strange occurrences.",
 		choices:[
 			{
 				text:'Approach the man',
@@ -390,6 +389,10 @@ var roomArray = [
 			{
 				text:'Ask the man if he knows anything about the nightmares',
 				index:26
+			},
+			{
+				text:'Leave him alone and return to the town centre',
+				index:12
 			}
 		]
 	},
@@ -477,7 +480,7 @@ var roomArray = [
 	{
 		<!--32-->
 		title:'Wooded grove',
-		text:"You strain your ears to listen for any sound and you do hear the whispering begin to rise around you. This time however you can understand the words that are being said. It sounds as though lots of voices are layered on top of one another so you can only make out snippets but it’s enough to understand the intention.<br\><br\>\
+		text:"You strain your ears to listen for any sound and you do hear the whispering begin to rise around you. You determine you can understand the words that are being said. It sounds as though lots of voices are layered on top of one another so you can only make out snippets but it’s enough to understand the intention.<br\><br\>\
 		“Get the necklace….”<br\><br\>\
 		“...return to me….”<br\><br\>\
 		“.....do you have the necklace?....”<br\><br\>\

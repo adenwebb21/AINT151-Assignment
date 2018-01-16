@@ -208,6 +208,21 @@ function UpdateInfo(roomIndex)
 {
 	switch (roomIndex)
 	{
+		case 0:
+			examinedStable = false;
+			guntherSentYou = false;
+			hasNecklace = false;
+			hasTranslator = false;
+			woodedgrove = false;
+			knowWhoGhostIs = false;
+			knowAboutNecklace = false;
+			spokeToGuardAboutNightmare = false;
+
+			finMera = false;
+			finBlacksmith = false;
+			finDruid = false;
+			finGuard = false;
+			break;
 		case 5:
 			examinedStable = true;
 			document.getElementById('discoveryText').innerHTML = "<br\><br\>You have learned that the stable is well looked after - maybe you can use this to make the stable boy feel more comfortable";
