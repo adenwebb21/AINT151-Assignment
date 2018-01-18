@@ -1,11 +1,11 @@
 @font-face {
   font-family: TitleFont;
-  src: url(TitleFont.TTF);
+  src: url(Fonts/TitleFont.TTF);
 }
 
 @font-face {
   font-family: Planewalker;
-  src: url(Planewalker.otf);
+  src: url(Fonts/Planewalker.otf);
 }
 
 #title {
@@ -47,7 +47,7 @@
 #bodyHome {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("homebg.gif");
+  background-image: url("Images/homebg.gif");
 }
 
 #mainContent{

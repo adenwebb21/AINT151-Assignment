@@ -12,6 +12,12 @@ var finBlacksmith = false;
 var finDruid = false;
 var finGuard = false;
 
+var townSounds = new Audio("Sounds/townsounds.mp3");
+var innSounds = new Audio("Sounds/inn.mp3");
+var woodSounds = new Audio("Sounds/woodedgrove.mp3");
+
+var buttonClick = new Audio("Sounds/buttonclick.wav");
+
 function OnLoad()
 {
 	SelectRoom(0);
@@ -33,13 +39,21 @@ function SelectRoom(roomIndex)
 
 	for (var i = 0; i < roomArray[roomIndex].choices.length; i++)
 	{
-		var roomChoices = "<button id = 'button' onClick=SelectRoom(" + roomArray[roomIndex].choices[i].index + ")>" + roomArray[roomIndex].choices[i].text + "</button><br\>";
+		var roomChoices = "<button id = 'button' onClick=SelectRoomAndPlaySound(" + roomArray[roomIndex].choices[i].index + ")>" + roomArray[roomIndex].choices[i].text + "</button><br\>";
 		document.getElementById('roomChoices').innerHTML += roomChoices;
 	}
 
 	UpdateInfo(roomIndex);
 	CreateLockedButtons(roomIndex)
 	GetBackgroundImage(roomIndex);
+	GetBackgroundAudio(roomIndex);
+}
+
+function SelectRoomAndPlaySound(roomIndex)
+{
+	SelectRoom(roomIndex);
+	buttonClick.volume = 0.2;
+	buttonClick.play();
 }
 
 function GetLockedButtons(roomIndex)
@@ -60,25 +74,25 @@ function GetBackgroundImage(roomIndex)
 		case 0:
 		case 1:
 		case 2:
-			document.getElementById("body").background = "farmbg.png";
+			document.getElementById("body").background = "Images/farmbg.png";
 			break;
 		case 3:
 		case 4:
 		case 5:
 		case 6:
 		case 7:
-			document.getElementById("body").background = "stable.png";
+			document.getElementById("body").background = "Images/stable.png";
 			break;
 		case 8:
 		case 9:
 		case 10:
 		case 11:
 		case 40:
-			document.getElementById("body").background = "barraks.png";
+			document.getElementById("body").background = "Images/barraks.png";
 			break;
 		case 12:
 		case 36:
-			document.getElementById("body").background = "towncentre.png";
+			document.getElementById("body").background = "Images/towncentre.png";
 			break;
 		case 13:
 		case 14:
@@ -88,7 +102,7 @@ function GetBackgroundImage(roomIndex)
 		case 18:
 		case 19:
 		case 39:
-			document.getElementById("body").background = "marketstalls.png";
+			document.getElementById("body").background = "Images/marketstalls.png";
 			break;
 		case 20:
 		case 21:
@@ -97,7 +111,7 @@ function GetBackgroundImage(roomIndex)
 		case 24:
 		case 37:
 		case 41:
-			document.getElementById("body").background = "inn.png";
+			document.getElementById("body").background = "Images/inn.png";
 			break;
 		case 25:
 		case 26:
@@ -105,7 +119,7 @@ function GetBackgroundImage(roomIndex)
 		case 28:
 		case 29:
 		case 38:
-			document.getElementById("body").background = "forge.png";
+			document.getElementById("body").background = "Images/forge.png";
 			break;
 		case 30:
 		case 31:
@@ -113,10 +127,84 @@ function GetBackgroundImage(roomIndex)
 		case 33:
 		case 34:
 		case 35:
-			document.getElementById("body").background = "woodedgrove.png";
+			document.getElementById("body").background = "Images/woodedgrove.png";
 			break;
 		default:
 			document.getElementById("body").background = "";
+			break;
+	}
+}
+
+function GetBackgroundAudio(roomIndex)
+{
+	switch (roomIndex)
+	{
+		case 0:
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 40:
+		case 12:
+		case 36:
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19:
+		case 39:
+			woodSounds.pause();
+			innSounds.pause();
+			townSounds.play();
+			townSounds.volume = 0.2;
+			break;
+		case 20:
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+		case 37:
+		case 41:
+			woodSounds.pause();
+			innSounds.play();
+			townSounds.pause();
+			innSounds.volume = 0.2;
+			break;
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+		case 29:
+		case 38:
+			woodSounds.pause();
+			innSounds.pause();
+			townSounds.play();
+			townSounds.volume = 0.2;
+			break;
+		case 30:
+		case 31:
+		case 32:
+		case 33:
+		case 34:
+		case 35:
+			woodSounds.play();
+			innSounds.pause();
+			townSounds.pause();
+			woodSounds.volume = 0.2;
+			break;
+		default:
+			woodSounds.pause();
+			innSounds.pause();
+			townSounds.pause();
 			break;
 	}
 }
