@@ -1,5 +1,5 @@
 var lockedChoicesArray = [
-	{
+  {
 		<!--0-->
 		choices:[
 			{

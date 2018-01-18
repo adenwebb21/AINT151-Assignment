@@ -17,7 +17,7 @@ var roomArray = [
 	{
 		<!--1-->
 		title:'Talking to Farmer',
-		text:"You slow your horse to a trot and then to a full stop, calling out to the man. He looks up and narrows his eyes at you with apparent suspicion. You can see that his clothes are fairly thin and ragged and a scraggly beard covered his chin and lower jaw.\
+		text:"You slow your horse to a trot and then to a full stop, calling out to the man. He looks up and narrows his eyes at you with apparent suspicion. You can see that his clothes are fairly thin and ragged and a scraggly beard covers his chin and lower jaw.\
     <br\><br\>'Was it you? Did you scare off my pigs? All you adventurers, can’t trust any of ya!'\
     <br\><br\>You shake your head and try to calm the man, you explain that you are here to investigate exactly this kind of unusual activity. You ask him if there was anything he could tell you about the culprit. \
     He pauses for a moment, scratching his chin.\
@@ -137,7 +137,7 @@ var roomArray = [
 	{
 		<!--9-->
 		title:'Talking to Guard',
-		text:"'Hail traveller, what can I do for you'<br\><br\>\
+		text:"'Hail traveller, what can I do for you?'<br\><br\>\
 		You notice that he looks very tired. You inform the man that you’re here to investigate the strange occurrences and he appears relieved.<br\><br\>\
 		'Oh thank the gods, I was starting to get overrun with complaints about the same damn nightmares. I’ve been getting them myself as well. Mind you don’t stay too long - I imagine you’ll start getting them too.'",
 		choices:[
@@ -275,7 +275,7 @@ var roomArray = [
 		text:"“You are here investigating the nightmares?”<br\><br\>\
 		Her voice is low and you have to strain to hear her over the hubbub of the town centre. You nod at her, you say you were wondering if she had seen anything like this before.<br\><br\>\
 		“I have seen something like this before...it was a spirit, trapped here when it shouldn’t have been. It created nightmares as messages, so that it could be freed.”<br\><br\>\
-		You say that the spirit didn’t seemed to speaking any language you had heard before, so how were you to follow its messages?<br\><br\>\
+		You say that the spirit didn’t seem to be speaking any language you had heard before, so how were you to follow its messages?<br\><br\>\
 		“Ah of course….spirits speak with a dead tongue, you will need...something like this.” Her hand moves over the talismans and branches arrayed on her stall. You notice that her eyes stay fixed on you. She hands you a small length of twisted root, simple runes scratched into one side.",
 		choices:[
 			{

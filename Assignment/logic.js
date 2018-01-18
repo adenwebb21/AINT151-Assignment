@@ -96,6 +96,7 @@ function GetBackgroundImage(roomIndex)
 		case 23:
 		case 24:
 		case 37:
+		case 41:
 			document.getElementById("body").background = "inn.png";
 			break;
 		case 25:
