@@ -1,4 +1,4 @@
-# AINT151-Assignment
+# AINT151 - Web Game Technologies
 Assignment for the AINT151 module.
 Aden Webb - 10574860
 
